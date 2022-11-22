@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(247, 211, 211);
+    color: rgb(0, 0, 0);
+
+}
+main{
+    margin-top: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#exibeCalculos{
+    margin-right:  10px;
+}
+
+h1, h3 {
+    color: rgb(5, 5, 5);
+}
+
+h3 {
+    margin-bottom: 2px;
+}
+
+input, label {
+    display: block;
+}
+
+input {
+    color: rgb(253, 253, 253);
+    background-color: rgb(0, 0, 0);
+    width: 120px;
+    
+}
+
+button {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 0;
+}
+
+::placeholder{
+    color: rgb(109, 109, 109);
+}
